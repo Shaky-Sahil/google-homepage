@@ -1,0 +1,174 @@
+<html>
+<head>
+     <title>google frontpage</title>
+</head>
+<style>
+    .nav{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    #navitem{
+        display: inline;
+        float:right;
+        margin-left: 10px;
+        font-family: Arial,sans-serif;
+        font-size:12px;
+    }
+    #signinbut{
+        background-color:#5080f3 ;
+        color:white;
+        font-weight: bold;
+        font-size:12px;
+        border-radius: 1px;
+        border-style:solid;
+    }
+    .center{
+        text-align:center;
+        height:auto;
+        padding-top: 10%;
+        margin-left: 30px;
+        
+    
+    }
+    
+    .sec{
+        text-align: center;
+        
+    }
+    #serc{
+        border-radius: 26px;
+        width: 500px;
+        border-width: 1px;
+        border-color: rgb(255, 255, 255);
+        border-style: solid;
+        box-shadow: 0px 0px 0.5px 0.5px #80808073;
+        height: 40px;
+        margin-top: 37px;
+        margin-left: 50px;
+    }
+    #serc:hover{ border-radius: 20px;
+        width: 510x;
+        border-style: solid;
+        border-color: white;
+        box-shadow: 0px 0px 2px 2px #80808073;
+
+    }
+    .container{
+        padding-top: 5px;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 50px 50px;
+        grid-template-rows: 30px;
+        grid-template-areas: "right left";
+    justify-content: center;
+        column-gap: 90px;
+    }
+
+    .item1{
+        width: 120px;
+        height:35;
+        grid-area: right;
+        background-color: #f8f9fa;
+        border-radius: 3px;
+        border-width: 0px;
+        border-style: solid;
+        
+    }
+    .item2{
+        width: 120px;
+        height: 35px;
+        grid-area:left;
+        background-color: #f8f9fa;
+        border-radius: 3px;
+        border-width: 0px;
+        border-style: solid;
+        
+    }
+    .item1:hover{
+        width: 120px;
+        height:35;
+        grid-area: right;
+        background-color: #f8f9fa;
+        border-radius: 3px;
+        border-width: 0px;
+        border-style: solid;
+        box-shadow: 0px 0px 2px 0.5px rgb(185, 182, 182);
+    }
+    .item2:hover{  
+        width: 120px;
+        height: 35px;
+        grid-area:left;
+        background-color: #f8f9fa;
+        border-radius: 3px;
+        border-width: 0px;
+        border-style: solid;
+        box-shadow: 0px 0px 2px 0.5px rgb(185, 182, 182);
+    }
+    .footer{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(218, 220, 224);
+        position:fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family:arial, sans-serif;
+        font-size: 12px;
+    }
+    #footitem{
+       display: inline;
+       float:left;
+       margin-left:10px;
+    }
+    #footitemright{
+        display: inline;
+        float: right;
+        margin-left:10px;
+        margin-right:10px;
+    }
+    
+</style>
+<body>
+<nav>
+<ul class="nav">
+    <li id="navitem"><input type="button" value="sign in" id="signinbut"></li>
+    <li id="navitem">Images</li>
+    <li id="navitem">Gmail</li>
+    </ul>
+</nav>
+<div class="center"> 
+    <img class="img1" src=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png alt=logo></img>
+</div>
+<div class="sec">
+   <input type="search" size="50" id="serc" placeholder="Search Google or type a URL">
+</div>
+<div class="container">
+   <input type="button" class=item1 value="Google Search">
+
+</input>
+   <input type="button" class=item2 value="I'm Feeling Lucky">
+       
+</input>
+</div>
+<footer>
+    <ul class="footer">
+        <li id="footitem">Advertising</li>
+        <li id="footitem">How Search Works</li>
+        <li id="footitem">Business</li>
+        <li id="footitemright">About</li>
+        <li id="footitemright">Privacy</li>
+        <li id="footitemright">Terms</li>
+        <li id="footitemright">Settings</li>
+    </ul>
+</footer>
+
+
+</body>
+</html>
+
+
